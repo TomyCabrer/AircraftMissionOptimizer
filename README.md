@@ -293,9 +293,7 @@ The solver produces an event-based mission profile with:
 - **Altitude vs mission node index**
 - **Cumulative weight fraction (W/W0) vs mission node index**, with per-segment weight fractions annotated
 
-> **Tip (GitHub):** save your figure as `assets/mission_profile.png` (or `.jpg`) and commit it, then reference it like below.
-
-![Mission profile (altitude + weight fraction)](assets/MissionProfile.png)
+![Mission profile (altitude + weight fraction)](MissionProfile.png)
 
 ---
 
