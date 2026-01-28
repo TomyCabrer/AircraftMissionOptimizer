@@ -295,7 +295,7 @@ The solver produces an event-based mission profile with:
 
 > **Tip (GitHub):** save your figure as `assets/mission_profile.png` (or `.jpg`) and commit it, then reference it like below.
 
-![Mission profile (altitude + weight fraction)](assets/mission_profile.png)
+![Mission profile (altitude + weight fraction)](assets/MissionProfile.png)
 
 ---
 
