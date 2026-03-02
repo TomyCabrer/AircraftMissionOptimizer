@@ -331,7 +331,7 @@ Fuel used: 34520 kg | Fuel cap: 36451 kg | Margin: 1932 kg
 -- Diagnostics --
 Cruise altitude convergence (last iter): h1 -0.000 % | h2 -0.000 %
 Loiter Mach convergence (last iter): start -0.000 % | end -0.000 %
-L/D consistency (vs CD_total_f3):
+L/D % of optimum L/D:
   Cruise1 start 0.383 % | end -0.401 %
   Cruise2 start 0.018 % | end -0.018 %
 
