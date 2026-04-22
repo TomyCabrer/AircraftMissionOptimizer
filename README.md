@@ -51,7 +51,7 @@ Cruise altitudes and loiter Mach numbers are solved.
 ---
 ---
 
-## 7. Core Solver Logic
+## 3. Core Solver Logic
 
 The mission solver follows a deterministic, physics-based iteration scheme that ensures consistency between:
 - Aerodynamic performance,
@@ -92,7 +92,7 @@ The workflow is:
 
 ---
 
-## 6. Output Structure
+## 4. Output Structure
 
 The mission solver returns a single structured variable named `out`.  
 This structure is the primary interface between the numerical core and all post-processing, reporting, and plotting utilities.
@@ -149,7 +149,7 @@ Fields:
 
 ---
 
-## 7. What the User Should Modify
+## 5. What the User Should Modify
 
 Only modify:
 
@@ -160,7 +160,7 @@ Only modify:
 
 ---
 
-## 8. Intended Use
+## 6. Intended Use
 
 This framework is designed for:
 - Conceptual aircraft design
@@ -170,7 +170,9 @@ This framework is designed for:
 
 It is **not** intended for certification-level performance prediction.
 
-## Drag Model References
+## 7. References
+
+### Drag Model References
 
 The drag formulation implemented in this repository follows standard conceptual aircraft design methodologies.  
 It combines parasite drag build-up, induced drag, wave drag, miscellaneous drag and Oswald efficiency corrections using semi-empirical correlations widely accepted in aerospace engineering.
@@ -284,7 +286,7 @@ All aerodynamic models implemented in the `Aerodynamics/` folder are based on th
 
 ---
 
-## Example Output
+## 8. Example Output
 
 ### Mission Profile Plot
 
@@ -358,7 +360,7 @@ Loiter speed: start 111.0 m/s | end 111.0 m/s
     "Cruise2 end"        9277.8
     "Loiter"               1524
 ```
-## License
+## 9. License
 
 This project is released under an **Imperial College London – Student Academic License**.
 
